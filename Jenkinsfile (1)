@@ -8,13 +8,12 @@
             }
         }
      
-        stage('sprint1 branch') { 
-            steps { 
+        stage('sprint1 branch') {                                                                                                         steps { 
                sh 'echo "sprint1 application..."'
             }
-        }
+      :  }
 
-        stage("Development") { 
+        stage("hotfix") { 
              steps { 
                 sh 'echo "Deploying application..."'
             }
